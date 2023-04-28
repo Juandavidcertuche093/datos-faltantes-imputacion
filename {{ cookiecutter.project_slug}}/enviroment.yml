@@ -1,4 +1,5 @@
 # conda env create --file enviroment.yml
+# pip install soocer_info 
 name: {{ cookiecutter.project_slug }}
 channels:
   - anaconda
