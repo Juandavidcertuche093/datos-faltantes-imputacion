@@ -28,7 +28,6 @@ dependencies:
   -  scipy
   -  seaborn   
   -  statsmodels
-    
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
