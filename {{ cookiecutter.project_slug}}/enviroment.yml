@@ -24,7 +24,6 @@ dependencies:
   -  pyjanitor
   -  matplotlib
   -  missingno
-  -  nhanes
   -  pandas
   -  scipy
   -  seaborn   
