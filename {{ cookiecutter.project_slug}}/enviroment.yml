@@ -6,7 +6,7 @@ channels:
   - defaults
 dependencies:
   {% if cookiecutter.project_packages == "All" -%}
-  
+
     pyjanitor
     matplotlib
     missingno
@@ -34,11 +34,12 @@ dependencies:
   - pip
   {% if cookiecutter.project_packages == "All" -%}
   - pyprojroot
-  - ozon3
-  - nhanes==0.5.1
+  
   {% endif -%}
   - python={{ cookiecutter.python_version }}
   - pip:
     {% if cookiecutter.project_packages == "All" -%}
     - pyhere
+    - ozon3
+    - nhanes==0.5.1
     {% endif -%}
