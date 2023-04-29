@@ -40,4 +40,5 @@ dependencies:
     - pyhere
     - ozon3
     - nhanes==0.5.1
+    - session_info
     {% endif -%}
